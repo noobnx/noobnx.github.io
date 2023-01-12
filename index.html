@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Personal Portfolio</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      />
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="stylesheet" href="./assets/css/responsive.css" />
+   </head>
+   <body>
+      <header class="container">
+         <div class="wrapper">
+            <img
+               class="img"
+               src="./assets/images/file_260081.webp"
+               alt="images of users"
+            />
+            <p class="name">Lê Xuân Sơn</p>
+            <p class="post">Front-End Developer</p>
+         </div>
+
+         <nav class="navbar">
+            <ul class="navbar--list-item">
+               <li class="navbar--item">
+                  <a class="navbar--item-link" href="#home">Home</a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar--item-link" href="#about">About</a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar--item-link" href="#project">Project</a>
+               </li>
+               <li class="navbar-item">
+                  <a class="navbar--item-link" href="#contact">Contact</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+
+      <div class="fas fa-bars" id="menu"></div>
+
+      <section class="home" id="home">
+         <h3>HI THERE!</h3>
+         <h1>
+            I'M
+            <span>son</span>
+         </h1>
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eos
+            dolorem quos nemo id culpa facilis deleniti in cumque vel ducimus
+            soluta aliquam voluptas exercitationem necessitatibus, provident
+            tenetur labore perferendis.
+         </p>
+         <a href="#about">
+            <button class="btn">
+               About Me
+               <i class="fas fa-user"></i>
+            </button>
+         </a>
+      </section>
+      <section class="about" id="about">
+         <h1 class="heading">
+            <span>about</span>
+            me
+         </h1>
+         <div class="row">
+            <div class="description">
+               <h3>
+                  <span>full name : </span>
+                  lê xuân sơn
+               </h3>
+               <h3>
+                  <span>age : </span>
+                  21
+               </h3>
+               <h3>
+                  <span>sex : </span>
+                  male
+               </h3>
+               <h3>
+                  <span>address : </span>
+                  dĩ an, bình dương
+               </h3>
+               <a href="#">
+                  <button class="btn">
+                     Download CV
+                     <i class="fas fa-download"></i>
+                  </button>
+               </a>
+            </div>
+            <div class="achievements">
+               <div class="box">
+                  <span>1+</span>
+                  <h3>years of experience</h3>
+               </div>
+               <div class="box">
+                  <span>4+</span>
+                  <h3>project completed</h3>
+               </div>
+               <div class="box">
+                  <span>430+</span>
+                  <h3>happy clients</h3>
+               </div>
+               <div class="box">
+                  <span>430+</span>
+                  <h3>happy clients</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="project" id="project">
+         <h1 class="heading">
+            my
+            <span>project</span>
+         </h1>
+         <div class="box-container">
+            <div class="box-img">
+               <img
+                  src="./assets/images/photofox.png"
+                  alt="images of project"
+               />
+            </div>
+            <div class="box-img">
+               <img src="./assets/images/anonime.png" alt="images of project" />
+            </div>
+            <div class="box-img">
+               <img src="./assets/images/shoppe.png" alt="images of project" />
+            </div>
+         </div>
+      </section>
+      <section class="contact" id="contact">
+         <h1 class="heading">
+            <span>contact</span>
+            me
+         </h1>
+         <div class="contact-row">
+            <div class="content">
+               <h3 class="title">contact info</h3>
+               <div class="info">
+                  <h3>
+                     <i class="fas fa-envelope"></i>
+                     info.xuanson@gmail.com
+                  </h3>
+                  <h3>
+                     <i class="fas fa-phone"></i>
+                     +84-91-762-6153
+                  </h3>
+                  <h3>
+                     <i class="fas fa-map-marker-alt"></i>
+                     dĩ an, bình dương
+                  </h3>
+               </div>
+            </div>
+            <form action="">
+               <input type="text" placeholder="name" class="input-text" />
+               <input type="email" placeholder="email" class="input-text" />
+               <input type="text" placeholder="phone" class="input-text" />
+               <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="input-message"
+                  placeholder="message"
+               ></textarea>
+               <button type="submit" class="btn">
+                  send
+                  <i class="fas fa-paper-plane"></i>
+               </button>
+            </form>
+         </div>
+      </section>
+
+      <a href="#home" class="btn-on-top">
+         <img
+            src="./assets/images/arrow-on-top.png"
+            alt="images arrow on top"
+            class="btn-img"
+         />
+      </a>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <script src="./assets/js/main.js"></script>
+   </body>
+</html>
